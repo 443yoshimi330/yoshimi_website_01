@@ -1,0 +1,357 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.section-01 {
+    background-image: url(./img/umi.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    animation: bigger-font 1s ease-in .5s 2 alternate-reverse backwards;
+}
+
+@keyframes bigger-font {
+    from {
+        font-size: 50px;
+    }
+
+    to {
+        font-size: 150px;
+    }
+}
+
+a {
+    font-size: 30px;
+    border-bottom: dashed skyblue;
+    color: white;
+}
+
+.link-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* section-02部分 */
+.section-02 {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+p,h3,li {
+    font-size: 30px;
+}
+
+.prof {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prof-01 p{
+    text-align: center;
+}
+
+
+
+
+
+/* section-03部分 */
+.section-03 {
+    background-image: url(./img/peru4.JPG);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.fav {
+    margin-right: 10px;
+    color: black;
+    border-bottom: dashed white;
+}
+
+/* section-04部分 */
+#fav-01::after {
+    content: '写真';
+}
+
+.photo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.photo-01 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+
+}
+
+#photo-a {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-a p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+
+}
+
+#photo-b {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-b p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+#photo-c {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-c p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+#photo-d {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-d p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+#photo-e {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-e p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+#photo-e {
+    position: relative;
+}
+
+#photo-e p {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+#photo-f {
+    position: relative;
+    border: double 5px black;
+}
+
+#photo-f p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+
+/* section-05部分 */
+
+h4 {
+  font-size: 60px;
+}
+
+.Form {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+  }
+
+  .Form-Item {
+  
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item {
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .Form-Item-Label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item-Label {
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item-Label.isMsg {
+      margin-top: 0;
+    }
+  }
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #545454;
+    color: #fff;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item-Label-Required {
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 32px;
+      font-size: 10px;
+    }
+  }
+  .Form-Item-Input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item-Input {
+      margin-left: 0;
+      margin-top: 18px;
+      height: 40px;
+      flex: inherit;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    .Form-Item-Textarea {
+      margin-top: 18px;
+      margin-left: 0;
+      height: 200px;
+      flex: inherit;
+      font-size: 15px;
+    }
+  }
+  .Form-Btn {
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #545454;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .Form-Btn {
+      margin-top: 24px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 160px;
+      font-size: 16px;
+    }
+  }
+
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 50px;
+    }
+    a,p,h3,li {
+        font-size: 15px;
+    }
+    h2,h4 {
+        font-size: 30px;
+    }
+   .photo {
+    font-size: 10px;
+   }
+}
